@@ -1,0 +1,61 @@
+.customer-360-work {
+    padding: 120px 0;
+    background: var(--blue-deep-color);
+}
+
+.customer-360-work-header {
+    color: var(--light-100-color);
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.card-360-title {
+    color: var(--light-100-color);
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.customer-360-work_cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+}
+
+.customer-360-work_card {
+    width: 100%;
+}
+
+.card-360-subtitle {
+    font-size: 0.8rem;
+    color: var(--light-70-color);
+    margin-bottom: 0.3rem;
+}
+
+.card-content-list-item {
+    list-style-type: disc;
+    margin-left: 1rem;
+    color: var(--light-70-color);
+}
+
+.customer-360-work_wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+@media (min-width: 450px) {
+    .customer-360-work_card {
+        max-width: 420px;
+        width: 100%;
+        color: red;
+    }
+
+
+}
+
+@media (min-width: 960px) {
+
+
+}

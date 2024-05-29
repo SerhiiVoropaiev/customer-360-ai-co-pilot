@@ -1,0 +1,131 @@
+.header__intro {
+    display: block;
+    flex-basis: 100%;
+    padding: 150px 0 110px;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.header__background {
+    background-image: url(../img/main_bg_cover.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50.7% 0;
+}
+
+.header-intro {
+    color: var(--light-80-color);
+    padding: 32px 0 72px;
+}
+
+
+.partners-logo-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.partner-logo {
+    max-height: 40px;
+    width: auto;
+}
+
+.amazon-logo {
+    padding-top: 8px;
+}
+
+.partner-logo-disclamer_wrap {
+    width: 80%;
+}
+
+.partner-logo-disclamer {
+    color: var(--light-100-color);
+    font-size: 1rem;
+}
+
+.divider-vertical {
+    display: none;
+}
+
+.partner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.8rem;
+}
+
+@supports (-webkit-touch-callout : none) {
+    .header__background {
+        background-attachment: scroll;
+    }
+}
+
+@supports not (-webkit-touch-callout : none) {
+    .header__background {
+        background-attachment: fixed;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .header-h1 {
+        max-width: 80%;
+    }
+
+    .header-h4 {
+        max-width: 80%;
+    }
+
+    .header__intro {
+        padding: 150px 0 140px;
+    }
+
+    .partner-logo-disclamer_wrap {
+        width: 208px;
+    }
+
+    .divider-vertical {
+        display: block;
+        border: 1px solid var(--light-60-color);
+        height: 40px;
+        width: 1px;
+    }
+
+    .partner-container {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 1.25rem;
+    }
+
+}
+
+@media (min-width: 1025px) {
+    .header-h1 {
+        max-width: 50%;
+    }
+
+    .header-h4 {
+        max-width: 50%;
+    }
+
+    .header__intro {
+        padding: 170px 0 150px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .header-h1 {
+        max-width: 80%;
+    }
+
+    .header-h4 {
+        max-width: 70%;
+    }
+
+    .header__intro {
+        padding: 280px 0 160px;
+    }
+}
+
